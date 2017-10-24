@@ -18,6 +18,8 @@ export
 meteor build \
   --allow-superuser \
   --directory $BUNDLE_DIR \
+  --architecture os.linux.x86_64 \
+  --server-only \
   --server=http://localhost:3000
 
 echo "=> Printing Meteor Node information..."
