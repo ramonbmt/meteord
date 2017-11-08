@@ -1,0 +1,1 @@
+npm install --global bcrypt@1.0.3

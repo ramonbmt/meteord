@@ -12,6 +12,7 @@ RUN bash $METEORD_DIR/lib/install_base.sh
 RUN bash $METEORD_DIR/lib/install_node.sh
 RUN bash $METEORD_DIR/lib/install_phantomjs.sh
 RUN bash $METEORD_DIR/lib/timezone.sh
+RUN bash $METEORD_DIR/lib/install_bcrypt.sh
 RUN bash $METEORD_DIR/lib/cleanup.sh
 
 EXPOSE 80
