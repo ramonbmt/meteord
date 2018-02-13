@@ -1,4 +1,4 @@
-FROM bmtask/meteord:base
+FROM bmtask/meteord2:base
 MAINTAINER MeteorHacks Pvt Ltd.
 
 ARG NODE_VERSION
